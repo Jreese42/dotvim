@@ -10,10 +10,10 @@ Includes:
 * NERD Commenter
 * NERD Tree
 * Comma as leader
-* <leader>ev, sv for edit vimrc, reload vimrc
+* \<leader\>ev, sv for edit vimrc, reload vimrc
 * Visual settings (color, number, indents, smart tabbing, etc)
-* <leader>/ to unhighlight search
+* \<leader\>/ to unhighlight search
 * w!! to force write to read-only files
-* Kills <F1> which is pure evil
-* jk for <Esc>
-* <leader><leader> to swap buffers
+* Kills \<F1\> which is pure evil
+* jk for \<Esc\>
+* \<leader\>\<leader\> to swap buffers
