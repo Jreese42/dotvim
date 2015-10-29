@@ -1,12 +1,20 @@
-My Vim config.
+My Vim config
+=============
 
 For Vim 7.4+ for vim to find .vim/vimrc in place of ~/.vimrc
+Clone with submodules to get the Plugins:
+git clone --recursive <repo>
+or
+git clone
+git submodule init
+git submodule update
 
 Includes:
 * Vundle
 * YouCompleteMe
 * SuperTab
 * UltiSnips + vim-snippets
+* Custom snippets directory
 * NERD Commenter
 * NERD Tree
 * Comma as leader
