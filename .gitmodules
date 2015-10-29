@@ -16,3 +16,6 @@
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = http://github.com/SirVer/ultisnips
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = http://github.com/honza/vim-snippets
