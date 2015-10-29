@@ -3,11 +3,21 @@ My Vim config
 
 For Vim 7.4+ for vim to find .vim/vimrc in place of ~/.vimrc
 Clone with submodules to get the Plugins:
+```
 git clone --recursive <repo>
+```
 or
+```
 git clone
 git submodule init
 git submodule update
+```
+You will need to compile YCM.  This may require python-dev, build-essential, and cmake.
+```
+cd .vim/bundle/YouCompleteMe
+./install.py --clang-completer
+```
+Refer to the YCM docs for more details on YCM compilation.
 
 Includes:
 * Vundle
