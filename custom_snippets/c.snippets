@@ -4,6 +4,35 @@
 
 priority 0
 
+##################
+## ADC Specific ##
+##################
+
+snippet osp "os_printf"
+os_printf("${1:%s}"${1/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\);)/}
+endsnippet
+
+snippet osd "os_printf_d"
+os_printf_d("${1:%s}"${1/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\);)/}
+endsnippet
+
+snippet osw "os_printf_w"
+os_printf_w("${1:%s}"${1/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\);)/}
+endsnippet
+
+snippet ose "os_printf_e"
+os_printf_e("${1:%s}"${1/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\);)/}
+endsnippet
+
+
+
+
+
+
+
+
+
+
 snippet def "#define ..."
 #define ${1}
 endsnippet
